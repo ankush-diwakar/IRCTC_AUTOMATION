@@ -1,5 +1,5 @@
 {
-  "name": "irctc-cypress-automation",
+  "name": "irctc-automation",
   "version": "3.0.4",
   "description": "IRCTC Ticket Booking",
   "scripts": {
