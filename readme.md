@@ -100,15 +100,15 @@
   "UPI_ID_CONFIG": "",
   "PASSENGER_DETAILS": [
     {
-      "NAME": "SHIVAM PANDEY",
-      "AGE": 26,
+      "NAME": "Ankush Diwakar",
+      "AGE": 23,
       "GENDER": "Male",
-      "SEAT": "Side Upper",
-      "FOOD" "No Food"
+      "SEAT": "No Preference",
+      "FOOD": "No Food"
     },
     {
-      "NAME": "Rachna Bhagat",
-      "AGE": 26,
+      "NAME": "Poonam Panday",
+      "AGE": 29,
       "GENDER": "Female",
       "SEAT": "Side Lower",
       "FOOD" "No Food"
@@ -142,7 +142,7 @@
 
 
 
-### Last Step...........
+### To Run...........
 
 ```
 npm install # <---- Make Sure You Run This Command From Code Folder. 
