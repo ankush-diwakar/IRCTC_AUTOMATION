@@ -1,14 +1,8 @@
-![Please Favourite This Project Before Reading (1)](https://github.com/shivamguys/irctc-cypress-automation/assets/25263989/1fe791dc-d320-42dd-99c9-d33fd034525b)
 
 # IRCTC Tatkal Cypress Automation !
 
 ### Now book your tatkal tickets under 1 min at ease by bypassing captcha and filling multiple passenger details at once. Let the script book it for you.
 
-🙏😍👏🙏😍🙏👏🙏😍🙏👏🙏😍🙏😍🙏👏🔥👍🔥👍🔥👍🔥
-## 🎉🎉🎉🎉🎉🎉 Thanks for the appreciation guys, much appreciated. 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
-
-![image](https://github.com/user-attachments/assets/8a1c8320-7389-4d91-bc8d-6886e6487017)
-![Tatkal_Appreciation](https://github.com/user-attachments/assets/8d167d29-8b24-461e-9ff3-a8b7df5a2883)
 
 
 > [!NOTE] 
@@ -23,20 +17,6 @@
 > resulting from the use of this script for any unauthorized 
 > activities.
 > ```
-
-[![IRCTC Automation](https://github.com/shivamguys/irctc-cypress-automation/actions/workflows/irctc.yml/badge.svg)](https://github.com/shivamguys/irctc-cypress-automation/actions/workflows/irctc.yml)
-
-<!-- [![IRCTC Automation](https://img.shields.io/endpoint?url=https://cloud.cypress.io/badge/simple/7afdkj/main&style=for-the-badge&logo=cypress)](https://cloud.cypress.io/projects/7afdkj/runs)
-
-[![IRCTC Automation](https://img.shields.io/endpoint?url=https://cloud.cypress.io/badge/detailed/7afdkj/main&style=for-the-badge&logo=cypress)](https://cloud.cypress.io/projects/7afdkj/runs) -->
-
-
-### Watch the simple recording here....
-####  [Watch the video here](https://i.imgur.com/3U8yKmb.mp4)
-
-[![](https://imgur.com/0xFTYhk.png)](https://i.imgur.com/3U8yKmb.mp4)
-
-
 
 
 ## Features it has right now?
@@ -159,63 +139,10 @@
     "MANUAL_CAPTCHA": false
 }
 ```
-# Running This On Github System (No Installation Required Easy 5 Minute Steps)... ?
-Follow The Guide -> https://github.com/shivamguys/irctc-cypress-automation/discussions/38
 
 
-# Running This On Your System... ?
-## Running this whole bunch.. ?
 
-
-## Installation Guide
-- Clone the code ```git clone https://github.com/shivamguys/irctc-cypress-automation.git``` or download the code zip files.
-- Make sure you have **Nodejs** and **npm** installed in your system you can visit **NodeJs** official website you will have full instruction guide present over there to install in your system.
-
-### Sample Nodejs and npm installation in Linux
-
-```
-# installs NVM (Node Version Manager)
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-# download and install Node.js
-nvm install 21
-# verifies the right Node.js version is in the environment
-node -v # should print `v21.7.1`
-# verifies the right NPM version is in the environment
-npm -v # should print `10.5.0`
-
-```
-
-### After NodeJs and Npm Installation, its time for you to install python and pip on your system.
-### After Python Installation Follow Below Steps.......
-##### In Case You Want To Install Pip here's the command to install in Linux
-```sudo apt-get install python3-pip -y```
-
-
-#### After Pip Installation you can install all requirements by pasting below command.
-```
-pip install -r irctc-captcha-solver/requirements.txt # <---- Make Sure You Run This Command From Code Folder. 
-```
-
-#### Check If Everything Works Fine.... 
-This Would Print **No base-64 String provided** Which Means You Have Followed Correctly at this point.
-```
-python irctc-captcha-solver/app-server.py --host 0.0.0.0 --port 5001
-```
-Then run the curl to see if the captcha server is responding fine.
-```
-$ curl -X POST "http://localhost:5001/extract-text"      
--H "Content-Type: application/json"      
--d '{
-     "image": ""
-    }'
-```
-You should get below output.
-```
-{"error":"No base64 image string provided"}
-```
-
-
-### Last Step That's It...........
+### Last Step...........
 
 ```
 npm install # <---- Make Sure You Run This Command From Code Folder. 
