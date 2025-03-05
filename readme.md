@@ -5,20 +5,6 @@
 
 
 
-> [!NOTE] 
-> ```
-> This Cypress script for automating IRCTC ticket booking
-> is created strictly for educational purposes. The code and its
-> usage are intended to showcase Cypress testing capabilities and
-> best practices. Any attempt to use this script for unauthorized
-> access or activities that violate IRCTC terms of service or legal
-> regulations is strictly prohibited. The author(s) and associated
-> entities are not responsible for any misuse or legal consequences 
-> resulting from the use of this script for any unauthorized 
-> activities.
-> ```
-
-
 ## Features it has right now?
 
 -  ✓ Can book **Tatkal**, **Premium Tatkal** and **Normal Tickets** as well.
@@ -38,7 +24,7 @@
 
 - Things you need in your system **NodeJS**, **Python**.
 - Make relevant changes in file located at **cypress/fixtures/passenger_data.json**
-> [!TIP]
+> [!NOTE]
 > Filling Your **UPI ID** Will Initiate A Payment Request Directly.
 > But it's a bit slow generally would take 2 or 3 sec to arrive request on your smartphone.
 > If Your are not using this then you can scan and pay directly which would be much faster.
